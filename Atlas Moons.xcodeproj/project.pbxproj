@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		D54DA98E23442D02000046B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54DA98D23442D02000046B2 /* AppDelegate.swift */; };
-		D54DA99023442D02000046B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54DA98F23442D02000046B2 /* ViewController.swift */; };
+		D54DA99023442D02000046B2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54DA98F23442D02000046B2 /* HomeViewController.swift */; };
 		D54DA99323442D02000046B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D54DA99123442D02000046B2 /* Main.storyboard */; };
 		D54DA99523442D04000046B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D54DA99423442D04000046B2 /* Assets.xcassets */; };
 		D54DA99823442D04000046B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D54DA99623442D04000046B2 /* LaunchScreen.storyboard */; };
+		D566147923628C40006B9925 /* ThumbnailPlanet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D566147823628C40006B9925 /* ThumbnailPlanet.swift */; };
+		D566147B23628E28006B9925 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D566147A23628E28006B9925 /* Model.swift */; };
+		D58D724323DE780E0043CD22 /* CircularCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58D724223DE780E0043CD22 /* CircularCollectionViewLayout.swift */; };
+		D58D724623DE79990043CD22 /* CGFloat+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58D724523DE79990043CD22 /* CGFloat+extension.swift */; };
+		D58D724823DE80A00043CD22 /* ThumbnailPlanetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58D724723DE80A00043CD22 /* ThumbnailPlanetCollectionViewCell.swift */; };
+		D5ED6CE72432878B00CE86AF /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ED6CE62432878B00CE86AF /* UIColor+extension.swift */; };
+		D5ED6CE92432A85500CE86AF /* Collection+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ED6CE82432A85500CE86AF /* Collection+extension.swift */; };
+		D5ED6CEC2432C2A000CE86AF /* UICollectionView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ED6CEB2432C2A000CE86AF /* UICollectionView+extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D54DA98A23442D02000046B2 /* Atlas Moons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Atlas Moons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D54DA98D23442D02000046B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D54DA98F23442D02000046B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D54DA98F23442D02000046B2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D54DA99223442D02000046B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D54DA99423442D04000046B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D54DA99723442D04000046B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D54DA99923442D04000046B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D566147823628C40006B9925 /* ThumbnailPlanet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailPlanet.swift; sourceTree = "<group>"; };
+		D566147A23628E28006B9925 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		D58D724223DE780E0043CD22 /* CircularCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularCollectionViewLayout.swift; sourceTree = "<group>"; };
+		D58D724523DE79990043CD22 /* CGFloat+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+extension.swift"; sourceTree = "<group>"; };
+		D58D724723DE80A00043CD22 /* ThumbnailPlanetCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailPlanetCollectionViewCell.swift; sourceTree = "<group>"; };
+		D5ED6CE62432878B00CE86AF /* UIColor+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+extension.swift"; sourceTree = "<group>"; };
+		D5ED6CE82432A85500CE86AF /* Collection+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+extension.swift"; sourceTree = "<group>"; };
+		D5ED6CEB2432C2A000CE86AF /* UICollectionView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +70,46 @@
 		D54DA98C23442D02000046B2 /* Atlas Moons */ = {
 			isa = PBXGroup;
 			children = (
-				D54DA98D23442D02000046B2 /* AppDelegate.swift */,
-				D54DA98F23442D02000046B2 /* ViewController.swift */,
 				D54DA99123442D02000046B2 /* Main.storyboard */,
+				D54DA98F23442D02000046B2 /* HomeViewController.swift */,
+				D58D724723DE80A00043CD22 /* ThumbnailPlanetCollectionViewCell.swift */,
+				D566147823628C40006B9925 /* ThumbnailPlanet.swift */,
+				D5ED6CEA2432B17A00CE86AF /* Model */,
+				D58D724423DE79170043CD22 /* Extension */,
+				D54DA99F23442E01000046B2 /* Support */,
+			);
+			path = "Atlas Moons";
+			sourceTree = "<group>";
+		};
+		D54DA99F23442E01000046B2 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				D58D724223DE780E0043CD22 /* CircularCollectionViewLayout.swift */,
+				D54DA98D23442D02000046B2 /* AppDelegate.swift */,
 				D54DA99423442D04000046B2 /* Assets.xcassets */,
 				D54DA99623442D04000046B2 /* LaunchScreen.storyboard */,
 				D54DA99923442D04000046B2 /* Info.plist */,
 			);
-			path = "Atlas Moons";
+			path = Support;
+			sourceTree = "<group>";
+		};
+		D58D724423DE79170043CD22 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D58D724523DE79990043CD22 /* CGFloat+extension.swift */,
+				D5ED6CE62432878B00CE86AF /* UIColor+extension.swift */,
+				D5ED6CE82432A85500CE86AF /* Collection+extension.swift */,
+				D5ED6CEB2432C2A000CE86AF /* UICollectionView+extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		D5ED6CEA2432B17A00CE86AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D566147A23628E28006B9925 /* Model.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +144,7 @@
 				TargetAttributes = {
 					D54DA98923442D02000046B2 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1110;
 					};
 				};
 			};
@@ -135,8 +184,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D54DA99023442D02000046B2 /* ViewController.swift in Sources */,
+				D5ED6CEC2432C2A000CE86AF /* UICollectionView+extension.swift in Sources */,
+				D566147923628C40006B9925 /* ThumbnailPlanet.swift in Sources */,
+				D5ED6CE92432A85500CE86AF /* Collection+extension.swift in Sources */,
+				D54DA99023442D02000046B2 /* HomeViewController.swift in Sources */,
+				D58D724623DE79990043CD22 /* CGFloat+extension.swift in Sources */,
+				D58D724823DE80A00043CD22 /* ThumbnailPlanetCollectionViewCell.swift in Sources */,
+				D58D724323DE780E0043CD22 /* CircularCollectionViewLayout.swift in Sources */,
 				D54DA98E23442D02000046B2 /* AppDelegate.swift in Sources */,
+				D566147B23628E28006B9925 /* Model.swift in Sources */,
+				D5ED6CE72432878B00CE86AF /* UIColor+extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,14 +341,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6WM7578AZR;
-				INFOPLIST_FILE = "Atlas Moons/Info.plist";
+				INFOPLIST_FILE = "Atlas Moons/Support/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.francisco.com.Atlas-Moons";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -302,14 +360,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6WM7578AZR;
-				INFOPLIST_FILE = "Atlas Moons/Info.plist";
+				INFOPLIST_FILE = "Atlas Moons/Support/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.francisco.com.Atlas-Moons";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
