@@ -34,6 +34,14 @@ class ThumbnailPlanet: UIView {
                                          height: frame.height - (distanceMoons * (frame.height * 0.2))))
         }
     }
+    
+    
+    public func hideMoons(){
+        let animation = UIViewPropertyAnimator(duration: 0.35, dampingRatio: 0.9) {
+            self.moons.forEach {  $0.alpha = 0 }
+        }
+        animation.startAnimation()
+    }
         
     
     init(frame: CGRect, planet: Planet) {

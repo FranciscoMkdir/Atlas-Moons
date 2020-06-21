@@ -37,6 +37,10 @@ class ThumbnailPlanetCollectionViewCell: UICollectionViewCell {
         }
     }
     
+    func hideMoons(){
+        self.planetView?.hideMoons()
+    }
+    
     override func prepareForReuse() {
         super.prepareForReuse()
         planetView?.removeFromSuperview()

@@ -7,22 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D537CF00245D15090020A38F /* InfoPlanetCollectionViewCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = D537CEFF245D15090020A38F /* InfoPlanetCollectionViewCells.swift */; };
 		D54DA98E23442D02000046B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54DA98D23442D02000046B2 /* AppDelegate.swift */; };
 		D54DA99023442D02000046B2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54DA98F23442D02000046B2 /* HomeViewController.swift */; };
 		D54DA99323442D02000046B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D54DA99123442D02000046B2 /* Main.storyboard */; };
 		D54DA99523442D04000046B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D54DA99423442D04000046B2 /* Assets.xcassets */; };
 		D54DA99823442D04000046B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D54DA99623442D04000046B2 /* LaunchScreen.storyboard */; };
+		D55AA9D62454CAC200C6134C /* UILabel+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55AA9D52454CAC200C6134C /* UILabel+extension.swift */; };
 		D566147923628C40006B9925 /* ThumbnailPlanet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D566147823628C40006B9925 /* ThumbnailPlanet.swift */; };
 		D566147B23628E28006B9925 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D566147A23628E28006B9925 /* Model.swift */; };
+		D58636DD246F291C00108C3E /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58636DC246F291C00108C3E /* StartView.swift */; };
 		D58D724323DE780E0043CD22 /* CircularCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58D724223DE780E0043CD22 /* CircularCollectionViewLayout.swift */; };
 		D58D724623DE79990043CD22 /* CGFloat+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58D724523DE79990043CD22 /* CGFloat+extension.swift */; };
 		D58D724823DE80A00043CD22 /* ThumbnailPlanetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58D724723DE80A00043CD22 /* ThumbnailPlanetCollectionViewCell.swift */; };
+		D5B307C824552AFD00535B73 /* InfoPlanetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B307C724552AFD00535B73 /* InfoPlanetViewController.swift */; };
+		D5BA889B2454DCFE00F59386 /* ScenePlanetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BA889A2454DCFE00F59386 /* ScenePlanetsViewController.swift */; };
+		D5C805C8246635C500AC4DE3 /* SCNNode+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C805C7246635C500AC4DE3 /* SCNNode+extension.swift */; };
+		D5DDE47E2443F1BE004E4D54 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DDE47D2443F1BE004E4D54 /* Fonts.swift */; };
+		D5DDE47F2443F3DE004E4D54 /* Okomito-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = D5DDE47C2443F1A3004E4D54 /* Okomito-Black.otf */; };
+		D5DDE4802443F3E1004E4D54 /* Okomito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5DDE4782443F1A3004E4D54 /* Okomito-Bold.ttf */; };
+		D5DDE4812443F3E3004E4D54 /* Okomito-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = D5DDE47B2443F1A3004E4D54 /* Okomito-Light.otf */; };
+		D5DDE4822443F3E6004E4D54 /* Okomito-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = D5DDE4772443F1A3004E4D54 /* Okomito-Medium.otf */; };
+		D5DDE4832443F3E8004E4D54 /* Okomito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5DDE47A2443F1A3004E4D54 /* Okomito-Regular.ttf */; };
+		D5DFC982245BB1320065B1D3 /* UIView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DFC981245BB1320065B1D3 /* UIView+extension.swift */; };
+		D5E01A932461A252008096EA /* InfoMoonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E01A922461A252008096EA /* InfoMoonCollectionViewCell.swift */; };
+		D5E78546245A766F009A4144 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E78545245A766F009A4144 /* Animation.swift */; };
 		D5ED6CE72432878B00CE86AF /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ED6CE62432878B00CE86AF /* UIColor+extension.swift */; };
 		D5ED6CE92432A85500CE86AF /* Collection+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ED6CE82432A85500CE86AF /* Collection+extension.swift */; };
 		D5ED6CEC2432C2A000CE86AF /* UICollectionView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ED6CEB2432C2A000CE86AF /* UICollectionView+extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D537CEFF245D15090020A38F /* InfoPlanetCollectionViewCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPlanetCollectionViewCells.swift; sourceTree = "<group>"; };
 		D54DA98A23442D02000046B2 /* Atlas Moons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Atlas Moons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D54DA98D23442D02000046B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D54DA98F23442D02000046B2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -30,11 +46,25 @@
 		D54DA99423442D04000046B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D54DA99723442D04000046B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D54DA99923442D04000046B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D55AA9D52454CAC200C6134C /* UILabel+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+extension.swift"; sourceTree = "<group>"; };
 		D566147823628C40006B9925 /* ThumbnailPlanet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailPlanet.swift; sourceTree = "<group>"; };
 		D566147A23628E28006B9925 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		D58636DC246F291C00108C3E /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		D58D724223DE780E0043CD22 /* CircularCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularCollectionViewLayout.swift; sourceTree = "<group>"; };
 		D58D724523DE79990043CD22 /* CGFloat+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+extension.swift"; sourceTree = "<group>"; };
 		D58D724723DE80A00043CD22 /* ThumbnailPlanetCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailPlanetCollectionViewCell.swift; sourceTree = "<group>"; };
+		D5B307C724552AFD00535B73 /* InfoPlanetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPlanetViewController.swift; sourceTree = "<group>"; };
+		D5BA889A2454DCFE00F59386 /* ScenePlanetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenePlanetsViewController.swift; sourceTree = "<group>"; };
+		D5C805C7246635C500AC4DE3 /* SCNNode+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNNode+extension.swift"; sourceTree = "<group>"; };
+		D5DDE4772443F1A3004E4D54 /* Okomito-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Okomito-Medium.otf"; sourceTree = "<group>"; };
+		D5DDE4782443F1A3004E4D54 /* Okomito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Okomito-Bold.ttf"; sourceTree = "<group>"; };
+		D5DDE47A2443F1A3004E4D54 /* Okomito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Okomito-Regular.ttf"; sourceTree = "<group>"; };
+		D5DDE47B2443F1A3004E4D54 /* Okomito-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Okomito-Light.otf"; sourceTree = "<group>"; };
+		D5DDE47C2443F1A3004E4D54 /* Okomito-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Okomito-Black.otf"; sourceTree = "<group>"; };
+		D5DDE47D2443F1BE004E4D54 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		D5DFC981245BB1320065B1D3 /* UIView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+extension.swift"; sourceTree = "<group>"; };
+		D5E01A922461A252008096EA /* InfoMoonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoMoonCollectionViewCell.swift; sourceTree = "<group>"; };
+		D5E78545245A766F009A4144 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 		D5ED6CE62432878B00CE86AF /* UIColor+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+extension.swift"; sourceTree = "<group>"; };
 		D5ED6CE82432A85500CE86AF /* Collection+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+extension.swift"; sourceTree = "<group>"; };
 		D5ED6CEB2432C2A000CE86AF /* UICollectionView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+extension.swift"; sourceTree = "<group>"; };
@@ -72,8 +102,11 @@
 			children = (
 				D54DA99123442D02000046B2 /* Main.storyboard */,
 				D54DA98F23442D02000046B2 /* HomeViewController.swift */,
-				D58D724723DE80A00043CD22 /* ThumbnailPlanetCollectionViewCell.swift */,
+				D5BA889A2454DCFE00F59386 /* ScenePlanetsViewController.swift */,
+				D5B307C724552AFD00535B73 /* InfoPlanetViewController.swift */,
 				D566147823628C40006B9925 /* ThumbnailPlanet.swift */,
+				D58636DC246F291C00108C3E /* StartView.swift */,
+				D5E01A912461A236008096EA /* Cells */,
 				D5ED6CEA2432B17A00CE86AF /* Model */,
 				D58D724423DE79170043CD22 /* Extension */,
 				D54DA99F23442E01000046B2 /* Support */,
@@ -84,7 +117,9 @@
 		D54DA99F23442E01000046B2 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				D5DDE4752443F18E004E4D54 /* Resources */,
 				D58D724223DE780E0043CD22 /* CircularCollectionViewLayout.swift */,
+				D5E78545245A766F009A4144 /* Animation.swift */,
 				D54DA98D23442D02000046B2 /* AppDelegate.swift */,
 				D54DA99423442D04000046B2 /* Assets.xcassets */,
 				D54DA99623442D04000046B2 /* LaunchScreen.storyboard */,
@@ -100,8 +135,42 @@
 				D5ED6CE62432878B00CE86AF /* UIColor+extension.swift */,
 				D5ED6CE82432A85500CE86AF /* Collection+extension.swift */,
 				D5ED6CEB2432C2A000CE86AF /* UICollectionView+extension.swift */,
+				D55AA9D52454CAC200C6134C /* UILabel+extension.swift */,
+				D5DFC981245BB1320065B1D3 /* UIView+extension.swift */,
+				D5C805C7246635C500AC4DE3 /* SCNNode+extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		D5DDE4752443F18E004E4D54 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D5DDE4762443F197004E4D54 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D5DDE4762443F197004E4D54 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D5DDE47D2443F1BE004E4D54 /* Fonts.swift */,
+				D5DDE47C2443F1A3004E4D54 /* Okomito-Black.otf */,
+				D5DDE4782443F1A3004E4D54 /* Okomito-Bold.ttf */,
+				D5DDE47B2443F1A3004E4D54 /* Okomito-Light.otf */,
+				D5DDE4772443F1A3004E4D54 /* Okomito-Medium.otf */,
+				D5DDE47A2443F1A3004E4D54 /* Okomito-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D5E01A912461A236008096EA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D58D724723DE80A00043CD22 /* ThumbnailPlanetCollectionViewCell.swift */,
+				D537CEFF245D15090020A38F /* InfoPlanetCollectionViewCells.swift */,
+				D5E01A922461A252008096EA /* InfoMoonCollectionViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		D5ED6CEA2432B17A00CE86AF /* Model */ = {
@@ -171,9 +240,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5DDE4832443F3E8004E4D54 /* Okomito-Regular.ttf in Resources */,
+				D5DDE47F2443F3DE004E4D54 /* Okomito-Black.otf in Resources */,
 				D54DA99823442D04000046B2 /* LaunchScreen.storyboard in Resources */,
+				D5DDE4822443F3E6004E4D54 /* Okomito-Medium.otf in Resources */,
+				D5DDE4802443F3E1004E4D54 /* Okomito-Bold.ttf in Resources */,
 				D54DA99523442D04000046B2 /* Assets.xcassets in Resources */,
 				D54DA99323442D02000046B2 /* Main.storyboard in Resources */,
+				D5DDE4812443F3E3004E4D54 /* Okomito-Light.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,13 +260,23 @@
 			files = (
 				D5ED6CEC2432C2A000CE86AF /* UICollectionView+extension.swift in Sources */,
 				D566147923628C40006B9925 /* ThumbnailPlanet.swift in Sources */,
+				D5DFC982245BB1320065B1D3 /* UIView+extension.swift in Sources */,
+				D5C805C8246635C500AC4DE3 /* SCNNode+extension.swift in Sources */,
 				D5ED6CE92432A85500CE86AF /* Collection+extension.swift in Sources */,
 				D54DA99023442D02000046B2 /* HomeViewController.swift in Sources */,
 				D58D724623DE79990043CD22 /* CGFloat+extension.swift in Sources */,
 				D58D724823DE80A00043CD22 /* ThumbnailPlanetCollectionViewCell.swift in Sources */,
 				D58D724323DE780E0043CD22 /* CircularCollectionViewLayout.swift in Sources */,
 				D54DA98E23442D02000046B2 /* AppDelegate.swift in Sources */,
+				D55AA9D62454CAC200C6134C /* UILabel+extension.swift in Sources */,
+				D58636DD246F291C00108C3E /* StartView.swift in Sources */,
+				D5DDE47E2443F1BE004E4D54 /* Fonts.swift in Sources */,
+				D5B307C824552AFD00535B73 /* InfoPlanetViewController.swift in Sources */,
 				D566147B23628E28006B9925 /* Model.swift in Sources */,
+				D5BA889B2454DCFE00F59386 /* ScenePlanetsViewController.swift in Sources */,
+				D5E01A932461A252008096EA /* InfoMoonCollectionViewCell.swift in Sources */,
+				D5E78546245A766F009A4144 /* Animation.swift in Sources */,
+				D537CF00245D15090020A38F /* InfoPlanetCollectionViewCells.swift in Sources */,
 				D5ED6CE72432878B00CE86AF /* UIColor+extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
